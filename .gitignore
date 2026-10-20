@@ -1,0 +1,28 @@
+# Obsidian: files for one computer only
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.tmp
+
+# Secrets: never store these in Git
+.env
+.env.*
+*.pem
+*.key
+*.pat
+id_rsa
+id_rsa.pub
+credentials.json
+secrets.json
+**/*.secret
+**/*credentials*
+raw/sealed/
